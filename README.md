@@ -1,7 +1,7 @@
 # STAT GR5702 Exploratory Data Analysis and Visualization
 ## Community Contribution 60
 
-We has been active on Piazza:
+We have been active on Piazza:
 2019/9/9: notes on installing devtools and ucidata
 He talked about how he solved some bug regarding installing packages, and how to update R version. 
 
