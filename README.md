@@ -1,10 +1,14 @@
-# STAT GR5702 Exploratory Data Analysis and Visualization
-## Community Contribution 60
+## STAT GR5702 Exploratory Data Analysis and Visualization
+## Community Contribution Group 60
 
 ### Table of contents
+* [Get Started](#Start)
 * [Introduction to HTML](#Intro2HTML)
 * [Introduction to D3](#Intro2D3)
 * [Piazza Activities](#PiazzaActi)
+
+### <a name="Start"></a> Get Started
+For vscode users, one of the easiest ways to launch a local server is via the "Live Server" extension.
 
 ### <a name="Intro2HTML"></a> Introduction to HTML
 Please check the `html_samples.html` for more details [[Link to the code]](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_samples.html).
