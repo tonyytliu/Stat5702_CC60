@@ -15,6 +15,7 @@
             <li><a href="#links"> Example of links </a></li>
             <li><a href="#tables"> Example of tables </a></li>
             <li><a href="#forms"> Example of forms </a></li>
+            <li><a href="#svg"> Example of svg </a></li>
         </ul>
         <hr>
 
@@ -92,6 +93,43 @@
             <input type="submit" value="Submit" onClick=showMessage()>
             <input type="reset" value="Reset">
         </form>
+        <hr>
+
+        <!-- Examples of svg -->
+        <h4 id="svg">&diams; Example of svg: </h4>
+        <svg width="250" height="150">
+            <rect width="200" height="150" style="fill:rgb(66, 167, 214); 
+            stroke-width:1; stroke:rgb(0,0,0)" />
+            <circle cx="50", cy="75", r="46" style="fill:rgb(235, 231, 47); 
+            stroke-width:3; stroke:rgb(255, 255, 255)"/>
+            <path d="M 150 32 L 105 123 L 195 123 L 150 32" style="fill:rgb(235, 231, 47); 
+            stroke-width:3; stroke:rgb(255, 255, 255)"/>
+        </svg>
+        <svg width="200" height="100">
+            <path d="M 10 10 L 80 90" style="fill:transparent; 
+            stroke-width:2; stroke:grey; stroke-dasharray:4"/>
+            <path d="M 120 90 L 190 10" style="fill:transparent; 
+            stroke-width:2; stroke:grey; stroke-dasharray:4"/>
+            <!-- Begin of drawing the curve -->
+            <path d="M 10 10 C 80 90, 120 90, 190 10 " style="fill:transparent; 
+            stroke-width:3; stroke:rgb(66, 167, 214)"/>
+            <!-- End of drawing the curve -->
+            <circle cx="10", cy="10", r="3" style="fill:red"/> 
+            <circle cx="80", cy="90", r="3" style="fill:orange"/> 
+            <circle cx="120", cy="90", r="3" style="fill:orange"/> 
+            <circle cx="190", cy="10", r="3" style="fill:red"/> 
+        </svg>
+
+        <!-- Reference Resources -->
+        <hr>
+        <p>For more ways of drawing svg path, please refer to
+             <a href="https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial/Paths">
+            this site</a> of mozilla.org.
+        </p>
+        <p>For more information about the HTML code, please refer to
+            <a href="https://www.w3schools.com/html/">
+            this site</a> of w3schools.com.
+        </p>
 
         <script>
             function showMessage() {
