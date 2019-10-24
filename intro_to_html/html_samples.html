@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>This is the Title</title>
+    </head>
+
+    <body>
+        <!-- Table of contents -->
+        <h2>Examples of HTML</h2>
+        <ul>
+            <li><a href="#headings"> Example of headings </a></li>
+            <li><a href="#para"> Example of paragraphs </a></li>
+            <li><a href="#texts"> Example of texts </a></li>
+            <li><a href="#lists"> Example of lists </a></li>
+            <li><a href="#links"> Example of links </a></li>
+            <li><a href="#tables"> Example of tables </a></li>
+            <li><a href="#forms"> Example of forms </a></li>
+        </ul>
+        <hr>
+
+        <!-- Examples of headings -->
+        <h4 id="headings">&diams; Examples of headings: </h4>
+        <h1>H1 Size</h1>
+        <h2>H2 Size</h2>
+        <h3>H3 Size</h3>
+        <h4>H4 Size</h4>
+        <h5>H5 Size</h5>
+        <h6>H6 Size</h6>
+        <hr>
+
+        <!-- Examples of paragraphs -->
+        <h4 id="para">&diams; Examples of paragraphs: </h4>
+        <p>This is paragraph <br> and line break</p>
+        Corresponding code: <code>&lt;p&gt;This is paragraph &lt;br&gt; and line break&lt;/p&gt;</code>
+        <hr>
+        <p>&uarr; Thematic breaks "<code>&lt;hr&gt;</code>" &darr; </p>
+        <hr>      
+
+        <!-- Examples of texts -->
+        <h4 id="texts">&diams; Examples of texts: </h4>
+        <p><b>Bold text</b> <i>Italic text</i> <sup>Superscript</sup> <sub>subscript</sub></p>
+        <p><strong>Strong</strong> <em>Emphasized</em> <ins>Insert</ins> <del>Deleted</del> <s>s</s></p>
+        <hr>
+
+        <!-- Examples of lists -->
+        <h4 id="lists">&diams; Examples of lists: </h4>
+        <h4>Ordered Lists</h4>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+        </ol>
+        <h4>Unordered List</h4>
+        <ul>
+            <li>item 1</li>
+            <li>item 2</li>
+        </ul>
+        <h4>Nested List</h4>
+        <ol>
+            <li>item 1</li>
+            <li>item 2</li>
+            <ul>
+                <li>sub-item 2.1</li>
+                <ul>
+                    <li>sub-sub-item 2.1.1</li>
+                </ul>
+            </ul>
+        </ol>
+
+        <hr>
+        <!-- Example of links -->
+        <h4 id="links">&diams; Example of links: </h4>
+        <p>Link to <a href = "https://edav.info">EDAV.info</a></p>
+
+        <hr>
+        <!-- Example of table -->
+        <h4 id="tables">&diams; Example of tables: </h4>
+        <table border="1">
+            <tr><th></th> <th>Column 1</th> <th>Column 2</th> </tr>
+            <tr><th> Row 1</th><td>Cell (1,1)</td><td>Cell (1,2)</td></tr>
+            <tr><th> Row 2</th><td>Cell (2,1)</td><td>Cell (2,2)</td></tr>
+            <caption>Table 1</caption>
+        </table>
+
+        <hr>
+        <!-- Example of forms -->
+        <h4 id="forms">&diams; Example of forms: </h4>
+        <form>
+            Text input: <input type="text" name="input"><br>
+            Date input: <input type="date" name="date"><br>
+            Password input: <input type="password"><br>
+            <br>
+            <input type="submit" value="Submit" onClick=showMessage()>
+            <input type="reset" value="Reset">
+        </form>
+
+        <script>
+            function showMessage() {
+                var inp = document.getElementsByName("input")[0].value;
+                var dat = document.getElementsByName("date")[0].value;
+                alert("The input text is " + inp + "; and the date is " + dat);
+            }
+        </script>
+    </body>
+</html>
