@@ -8,7 +8,12 @@
 * [Piazza Activities](#PiazzaActi)
 
 ### <a name="Start"></a> Get Started
-For vscode users, one of the easiest ways to launch a local server is via the "Live Server" [[Link]](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension. Launch the server by simply click the "Go Live" button.
+For vscode users, one of the easiest ways to launch a local server is via the "[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)" extension. Launch the server by simply click the "Go Live" button.
+
+Another approach is through `http-server`, you can follow the instruction on [this site](https://www.npmjs.com/package/http-server) to install the `http-server` via `npm`. You can launch the local server by the following command.
+```bash
+$ http-server [path]
+```
 
 ### <a name="Intro2HTML"></a> Introduction to HTML
 Please check the `html_samples.html` for more details [[Link to the code]](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_samples.html).
