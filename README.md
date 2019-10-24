@@ -2,8 +2,12 @@
 ## Community Contribution 60
 
 ### Table of contents
+* [Introduction to HTML](#Intro2HTML)
 * [Introduction to D3](#Intro2D3)
 * [Piazza Activities](#PiazzaActi)
+
+### <a name="Intro2HTML"></a> Introduction to HTML
+Please check the `html_samples.html` for more details [[Link to the code]](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_samples.html).
 
 ### <a name="Intro2D3"></a> Introduction to D3
 
