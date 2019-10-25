@@ -9,21 +9,25 @@
 ## <a name="Start"></a> Get Started
 For vscode users, one of the easiest ways to launch a local server is via the "[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)" extension. Launch the server by simply click the "Go Live" button.
 
-![](https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/vscode_local_server.gif?raw=true)
+<p align="center">
+<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/vscode_local_server.gif?raw=true" width="550"/>
+</p>
 
 Another approach is through `http-server`, you can follow the instruction on [this site](https://www.npmjs.com/package/http-server) to install the `http-server` via `npm`. You can launch the local server by the following command.
 ```bash
 $ http-server [path]
 ```
 
-![](https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/http_server_local.gif?raw=true)
+<p align="center">
+<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/http_server_local.gif?raw=true" width="550"/>
+</p>
 
 ## <a name="Intro2HTML"></a> Introduction to HTML
 Please check the [`html_examples.html`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_examples.html) for more detailed examples and code.
 
 We also made a cheatsheet [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf), which contains some basic HTML concepts and code
 
-<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.png?raw=true" alt="Basic_HTML_Notes" class="inline"/>
+[<p align="center"><img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.png?raw=true" alt="Basic_HTML_Notes" width="700"/></p>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf)
 
 
 ## <a name="Intro2D3"></a> Introduction to D3
