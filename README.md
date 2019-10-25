@@ -1,8 +1,7 @@
 <h2 align="center"> STAT GR5702 Exploratory Data Analysis and Visualization <br> Community Contribution Group 60 </h2>
+<h3 align="center"> Notes of Basic HTML, JavaScript, and D3 </h3>
 
-<hr>
-
-## Table of contents
+## Table of Contents
 * [Get Started](#Start)
 * [Introduction to HTML](#Intro2HTML)
 * [Introduction to D3](#Intro2D3)
