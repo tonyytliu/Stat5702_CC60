@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <title>D3 Example</title>
+    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+    <style>
+        div.tooltip {
+            position: absolute;
+            padding: 4px;
+            background: rgb(147, 233, 255);
+            font: 13px serif;
+            border: 0px;
+            border-radius: 6px;
+        }
+        </style>
+</header>
+<body>
+    <center><h1>Example of a D3 Plot</h1></center>
+    <script>
+        var margin = {top: 10, right:80, bottom: 30, left:80};
+        var width =  800 - margin.left - margin.right;
+        var height = 500 - margin.top - margin.bottom;
+
+        var xScale = d3.scaleLinear().range([0,width]).domain([-10, 10]);
+        var yScale = d3.scaleLinear().range([height,0]);
+
+        var ds_type = "Fixed"
+
+        var tooltip = d3.select("body")
+                        .append("div")	
+                        .attr("class", "tooltip")				
+                        .style("opacity", 0);
+
+        // append svg to the html "body"
+        d3.select("body").attr("align","center");
+        var svg = d3.select("body").append("svg")
+                    .attr("width", width + margin.left + margin.right)
+                    .attr("height", height + margin.top + margin.bottom)
+                    .append("g")
+                    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        
+        d3.csv("./data/s_data.csv")
+          .then(function(data) {
+            var cur_y = "y = x";
+            var col = data.columns
+            // console.log(data)
+            data.forEach(function(d) {
+                // change string data to numeric
+                for (i = 0; i < col.length; i++){
+                    d[col[i]] = +d[col[i]]
+                }
+            });
+            var y_maxt = d3.max(data, function(d){
+                return d[cur_y];
+            })
+            var y_mint = d3.min(data, function(d){
+                return d[cur_y];
+            })
+            var y_max = d3.max([y_maxt, -y_mint])
+
+            // adjust y-axis' domain
+            yScale.domain([-y_max, y_max]);
+
+            // some of the following "append" code reference to https://bl.ocks.org/gordlea/27370d1eea8464b04538e6d8ced39e89
+            // append x axis
+            svg.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + height/2 + ")")
+                .call(d3.axisBottom(xScale));
+
+            // append y axis
+            var yAxis = d3.axisLeft().scale(yScale)
+            svg.append("g")
+                .attr("class", "y axis")
+                .attr('id','yAxis')
+                .attr("transform", "translate("+ width/2 +", 0)")
+                .call(yAxis);
+
+            // add "dots" (i.e. data points) to the plot
+            svg.selectAll(".dot")
+                .data(data)
+                .enter()
+                .append("g")
+                .append("circle")
+                .attr("class", "dot")
+                .attr("r", 1.5)
+                .attr("cx", function(d){
+                    return xScale(d["x"]);
+                    })
+                .attr("cy", function(d){
+                    if(Number.isNaN(d[cur_y])){
+                        return 1000;
+                    } else {
+                        return yScale(d[cur_y]);
+                    }
+                })
+                .on("mouseover", function(d){
+                    // when mouse move over the dot
+                    d3.select(this)
+                    .transition()
+                    .duration(150)
+                    .attr("r", 4)
+                    .style("fill", "red");
+                    tooltip.transition()		
+                        .duration(150)		
+                        .style("opacity", 0.85);
+                    tooltip.html("x=" + d["x"]+"<br>y=" + d[cur_y])
+                        .style("left", (d3.event.pageX + 10) + "px")
+                        .style("top", (d3.event.pageY) + "px");
+                })
+                .on("mouseout", function(d) {
+                    d3.select(this)
+                    .transition()
+                    .duration(150)
+                    .attr("r", 1.5)
+                    .style("fill", "black");;		
+                    tooltip.transition()		
+                        .duration(150)		
+                        .style("opacity", 0);	
+                });
+
+                var menu = d3.select("body")
+                            .append("div");
+                var menu2 = d3.select("body")
+                            .append("div");
+
+                var text_func = menu.append('span')
+                                   .text('Select Function: ')
+                                   .style("font-size","10pt");
+                var func_options = menu.append('select')
+                                    .attr('id', 'optionY')
+                                    .on('change', yChange)
+                                    .selectAll('option')
+                                    .data(col.slice(2, col.length))
+                                    .enter()
+                                    .append('option')
+                                    .attr("value", function (d) {
+                                        return d;
+                                        })
+                                    .text(function (d) {
+                                            return d;
+                                        });
+                var text_domSca = menu2.append('span')
+                                     .text('Y-axis Domain Type: ')
+                                     .style("font-size","10pt");
+                var domSca_options = menu2.append('select')
+                                        .attr('id', 'optionSc')
+                                        .on('change', DomScaChange)
+                                        .selectAll('option')
+                                        .data(["Fixed", "Dynamic"])
+                                        .enter()
+                                        .append('option')
+                                        .attr("value", function (d) {
+                                            return d;
+                                            })
+                                        .text(function (d) {
+                                                return d;
+                                            });
+                function yChange(){
+                    // when change menu option
+                    cur_y = this.value
+                    var y_maxt = d3.max(data, function(d){
+                        return d[cur_y];
+                    })
+                    var y_mint = d3.min(data, function(d){
+                        return d[cur_y];
+                    })
+                    var y_max = d3.max([y_maxt, -y_mint])
+                    // console.log(ds_type)
+                    if (ds_type == "Fixed"){
+                        yScale.domain([-10, 10]);
+                    } else {
+                        yScale.domain([-y_max, y_max]);
+                    }
+
+                    // rescale and change y-axis
+                    yAxis.scale(yScale)
+                    d3.select('#yAxis').transition().duration(1000).call(yAxis);
+
+                    d3.selectAll('circle') // move points
+                        .transition("update").duration(1000)
+                        .attr('cy',function (d) {
+                            if(Number.isNaN(d[cur_y])){
+                                return 1000;
+                            } else {
+                                return yScale(d[cur_y]);
+                            }
+                        })
+                }   
+            function DomScaChange(){
+                ds_type = this.value
+            }
+        })
+    </script>
+</body>
+</html>
