@@ -27,7 +27,7 @@ Please check the [`html_examples.html`](https://github.com/tonyytliu/Stat5702_CC
 
 We also made a cheatsheet [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf), which contains some basic HTML concepts and code
 
-[<p align="center"><img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.png?raw=true" alt="Basic_HTML_Notes" width="700"/></p>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf)
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf)
 
 
 ## <a name="Intro2D3"></a> Introduction to D3
