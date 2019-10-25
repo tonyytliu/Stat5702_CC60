@@ -114,7 +114,9 @@
             <path d="M 10 10 C 80 90, 120 90, 190 10 " style="fill:transparent; 
             stroke-width:3; stroke:rgb(66, 167, 214)"/>
             <!-- End of drawing the curve -->
+            <!-- Red points are the start and end of the curve -->
             <circle cx="10", cy="10", r="3" style="fill:red"/> 
+            <!-- Orange points are the control points for the curvature -->
             <circle cx="80", cy="90", r="3" style="fill:orange"/> 
             <circle cx="120", cy="90", r="3" style="fill:orange"/> 
             <circle cx="190", cy="10", r="3" style="fill:red"/> 
@@ -131,6 +133,7 @@
             this site</a> of w3schools.com.
         </p>
 
+        <!-- Following script define what to do after clicking "submit" in the form -->
         <script>
             function showMessage() {
                 var inp = document.getElementsByName("input")[0].value;
