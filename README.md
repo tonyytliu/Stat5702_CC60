@@ -16,7 +16,7 @@ $ http-server [path]
 ```
 
 ### <a name="Intro2HTML"></a> Introduction to HTML
-Please check the `html_samples.html` for more details [[Link to the code]](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_samples.html).
+Please check the `html_examples.html` for more details [[Link to the code]](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_examples.html).
 
 ### <a name="Intro2D3"></a> Introduction to D3
 
