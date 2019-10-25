@@ -45,7 +45,7 @@ We have created a note on basic D3, which helps to kick-start building an intera
 We have also made an example code for the visualization of several mathematical functions. Please check [`d3_example.html`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/d3_example.html) for details. The data are in the [`data`](https://github.com/tonyytliu/Stat5702_CC60/tree/master/intro_to_d3/data) directory. By modifying [`data_generator.R`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/data/data_generator.R), you can test out more functions.
 
 #### Demo of the Example D3 We Provided
-x will always be in range [-10, 10], y = f(x) is the function we can choose. Once we choose another function, there will be an animated transaction of the points moving. In this case, we choose the y-axis to be fixed to the range [-10, 10].
+``x`` will always be in range ``[-10, 10]``, ``y = f(x)`` is the function we can choose. Once we choose another function, there will be an animated transition of the points moving. In this case, we choose the y-axis to be fixed to the range ``[-10, 10]``.
 
 <p align="center">
 <img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/demo_fixed.gif?raw=true" width="450"/>
