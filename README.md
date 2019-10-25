@@ -1,21 +1,24 @@
-## STAT GR5702 Exploratory Data Analysis and Visualization
-## Community Contribution Group 60
+## STAT GR5702 <br> Community Contribution Group 60
 
-### Table of contents
+## Table of contents
 * [Get Started](#Start)
 * [Introduction to HTML](#Intro2HTML)
 * [Introduction to D3](#Intro2D3)
 * [Piazza Activities](#PiazzaActi)
 
-### <a name="Start"></a> Get Started
+## <a name="Start"></a> Get Started
 For vscode users, one of the easiest ways to launch a local server is via the "[Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)" extension. Launch the server by simply click the "Go Live" button.
+
+![](https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/vscode_local_server.gif?raw=true)
 
 Another approach is through `http-server`, you can follow the instruction on [this site](https://www.npmjs.com/package/http-server) to install the `http-server` via `npm`. You can launch the local server by the following command.
 ```bash
 $ http-server [path]
 ```
 
-### <a name="Intro2HTML"></a> Introduction to HTML
+![](https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/http_server_local.gif?raw=true)
+
+## <a name="Intro2HTML"></a> Introduction to HTML
 Please check the [`html_examples.html`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_examples.html) for more detailed examples and code.
 
 We also made a cheatsheet [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf), which contains some basic HTML concepts and code
@@ -23,9 +26,9 @@ We also made a cheatsheet [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/
 <img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.png?raw=true" alt="Basic_HTML_Notes" class="inline"/>
 
 
-### <a name="Intro2D3"></a> Introduction to D3
+## <a name="Intro2D3"></a> Introduction to D3
 
-### <a name="PiazzaActi"></a> Piazza Activities
+## <a name="PiazzaActi"></a> Piazza Activities
 We have been active on Piazza:
 - 2019/9/9: notes on installing devtools and ucidata
 - He talked about how he solved some bug regarding installing packages, and how to update R version. 
