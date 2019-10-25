@@ -1,4 +1,4 @@
-## STAT GR5702 <br> Community Contribution Group 60
+<h2 align="center"> STAT GR5702 Exploratory Data Analysis and Visualization <br> Community Contribution Group 60 </h2>
 
 ## Table of contents
 * [Get Started](#Start)
@@ -25,12 +25,17 @@ $ http-server [path]
 ## <a name="Intro2HTML"></a> Introduction to HTML
 Please check the [`html_examples.html`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/html_examples.html) for more detailed examples and code.
 
-We also made a cheatsheet [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf), which contains some basic HTML concepts and code
+We also made a note [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf), which contains some basic HTML concepts and code
 
 [<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_html/Basic_HTML_Notes.pdf)
 
 
 ## <a name="Intro2D3"></a> Introduction to D3
+We have created a note on basic D3, which helps to kick-start building an interactive visualization with [D3.js](https://d3js.org). Please check [`Basic_D3_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.pdf) for the note.
+
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.pdf)
+
+We have also made an example code for the visualization of several mathematical functions. Please check [`d3_example.html`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/d3_example.html) for details. The data are in the [`data`](https://github.com/tonyytliu/Stat5702_CC60/tree/master/intro_to_d3/data) directory. By modifying [`data_generator.R`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/data/data_generator.R), you can test out more functions.
 
 ## <a name="PiazzaActi"></a> Piazza Activities
 We have been active on Piazza:
