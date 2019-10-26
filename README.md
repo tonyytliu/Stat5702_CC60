@@ -36,6 +36,14 @@ We also made a note [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat57
 
 <hr>
 
+## <a name="IntroJavaScript"></a> Introduction to JavaScript
+
+We also made a note [`JavaScript_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf), which contains some basic JS syntax and functions.
+
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf)
+
+<hr>
+
 ## <a name="Intro2D3"></a> Introduction to D3
 We have created a note on basic D3, which helps to kick-start building an interactive visualization with [D3.js](https://d3js.org). Please check [`Basic_D3_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.pdf) for the note.
 
