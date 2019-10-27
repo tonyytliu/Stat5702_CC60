@@ -7,7 +7,6 @@
 * [Introduction to JavaScript](#IntroJavaScript)
 * [Introduction to D3](#Intro2D3)
 * [References & Resources](#Ref)
-* [Piazza Activities](#PiazzaActi)
 
 <hr>
 
