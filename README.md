@@ -4,7 +4,9 @@
 ## Table of Contents
 * [Get Started](#Start)
 * [Introduction to HTML](#Intro2HTML)
+* [Introduction to JavaScript](#IntroJavaScript)
 * [Introduction to D3](#Intro2D3)
+* [References & Resources](#Ref)
 * [Piazza Activities](#PiazzaActi)
 
 <hr>
@@ -40,14 +42,14 @@ We also made a note [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat57
 
 We also made a note [`Basic_JavaScript_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.pdf), which contains some basic JS syntax and functions.
 
-[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.png?raw=true" alt="Basic_JavaScript_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.pdf)
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.png?raw=true" alt="Basic_JS_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.pdf)
 
 <hr>
 
 ## <a name="Intro2D3"></a> Introduction to D3
 We have created a note on basic D3, which helps to kick-start building an interactive visualization with [D3.js](https://d3js.org). Please check [`Basic_D3_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.pdf) for the note.
 
-[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.pdf)
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.png?raw=true" alt="Basic_D3_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/Basic_D3_Notes.pdf)
 
 We have also made an example code for the visualization of several mathematical functions. Please check [`d3_example.html`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/d3_example.html) for details. The data are in the [`data`](https://github.com/tonyytliu/Stat5702_CC60/tree/master/intro_to_d3/data) directory. By modifying [`data_generator.R`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_d3/data/data_generator.R), you can test out more functions.
 
@@ -69,6 +71,17 @@ When the mouse hovers to a point, the tooltip will show its coordinate.
 <p align="center">
 <img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/fig/demo_tooltip.gif?raw=true" width="350"/>
 </p>
+
+<hr>
+
+## <a name="Ref"></a> References & Resources
+Many resources are beneficial for learning more about HTML, JS, and D3.js.
+
+HTML: https://www.w3schools.com/html/
+
+JS: https://www.w3schools.com/js/, https://developer.mozilla.org/en-US/docs/Web/JavaScript
+
+D3: https://d3js.org
 
 <hr>
 
