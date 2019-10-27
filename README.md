@@ -77,11 +77,11 @@ When the mouse hovers to a point, the tooltip will show its coordinate.
 ## <a name="Ref"></a> References & Resources
 Many resources are beneficial for learning more about HTML, JS, and D3.js.
 
-HTML: https://www.w3schools.com/html/
+HTML: [https://www.w3schools.com/html/](https://www.w3schools.com/html/)
 
-JS: https://www.w3schools.com/js/, https://developer.mozilla.org/en-US/docs/Web/JavaScript
+JS: [https://www.w3schools.com/js/](https://www.w3schools.com/js/), [https://developer.mozilla.org/en-US/docs/Web/JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
-D3: https://d3js.org
+D3: [https://d3js.org](https://d3js.org)
 
 <hr>
 
