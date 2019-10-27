@@ -40,7 +40,7 @@ We also made a note [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat57
 
 We also made a note [`JavaScript_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf), which contains some basic JS syntax and functions.
 
-[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.png?raw=true" alt="JavaScript_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf)
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf)
 
 <hr>
 
