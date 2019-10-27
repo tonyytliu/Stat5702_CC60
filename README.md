@@ -38,9 +38,9 @@ We also made a note [`Basic_HTML_Notes.pdf`](https://github.com/tonyytliu/Stat57
 
 ## <a name="IntroJavaScript"></a> Introduction to JavaScript
 
-We also made a note [`JavaScript_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf), which contains some basic JS syntax and functions.
+We also made a note [`Basic_JavaScript_Notes.pdf`](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.pdf), which contains some basic JS syntax and functions.
 
-[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.png?raw=true" alt="Basic_HTML_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/JavaScript_Notes.pdf)
+[<img src="https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.png?raw=true" alt="Basic_JavaScript_Notes" width="800"/>](https://github.com/tonyytliu/Stat5702_CC60/blob/master/intro_to_js/Basic_JavaScript_Notes.pdf)
 
 <hr>
 
